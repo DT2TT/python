@@ -1,0 +1,10 @@
+tensorflow
+matplotlib
+seaborn
+numpy
+pygubu
+tkinter
+scipy
+librosa
+python-docx
+sounddevice

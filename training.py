@@ -225,12 +225,15 @@ model.save('save.h5')
 
 
 
-sample_file = data_dir/'3/3_thuc_10.wav'
+# sample_file = data_dir/'3/3_thuc_10.wav'
 
-sample_ds = preprocess_dataset([str(sample_file)])
+# sample_ds = preprocess_dataset([str(sample_file)])
 
-for spectrogram, label in sample_ds.batch(1):
-  prediction = model(spectrogram)
-  plt.bar(commands, tf.nn.softmax(prediction[0]))
-  plt.title(f'Predictions for "{commands[label[0]]}"')
-  plt.show()
+# for spectrogram, label in sample_ds.batch(1):
+#   prediction = model(spectrogram)
+#   plt.bar(commands, tf.nn.softmax(prediction[0]))
+#   plt.title(f'Predictions for "{commands[label[0]]}"')
+#   plt.show()
+
+
+
